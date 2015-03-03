@@ -12,7 +12,9 @@
  * @package flat-bootstrap
  */
 
-get_header(); ?>
+get_header(); 
+global $post;?>
+
 
 <?php get_template_part( 'content', 'header' ); ?>
 

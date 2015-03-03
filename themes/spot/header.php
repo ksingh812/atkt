@@ -76,7 +76,7 @@ $(document).ready(function(){
         $(selector).removeClass("sb_display_none").siblings(".sb_airFormType").addClass("sb_display_none");
     });    
     $('#sb_air_multi').click(function(){
-        window.location = 'http://secure.rezserver.com/air/home?refid=5436'
+        window.location = 'http://tickets.airtkt.net/air/home/?refid=5436'
         return false;
     }); 
 
