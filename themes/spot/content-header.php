@@ -286,14 +286,14 @@
 						</div>
 						<div class="sb_searchform__car__dates">
 							<div class="sb_searchformRow">
-								<div class='label'>Pick Up Date</div>
+								<div class='label'>Pick Up Date & Time</div><br/>
 								<div class="sb_searchformInputContainer sb_searchformInputContainer--car sb_date_input">
 									<input name="rs_pu_date" class="rs_chk_in sb_searchformTextInput" value="mm/dd/yyyy">
 								</div>
 								<select name="rs_pu_time" class="rs_time_in sb_searchformSelect sb_searchformSelect--car"></select>
 							</div>
 							<div class="sb_searchformRow car_fix no_margin">
-								<div class='label'>Drop Off Date</div>
+								<div class='label'>Drop Off Date & Time</div><br/>
 								<div class="sb_searchformInputContainer sb_searchformInputContainer--car sb_date_input">
 									<input name="rs_do_date" class="rs_chk_out sb_searchformTextInput" value="mm/dd/yyyy">
 								</div>
