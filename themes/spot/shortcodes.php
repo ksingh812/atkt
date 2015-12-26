@@ -47,7 +47,7 @@ add_shortcode( 'col3', 'airtkt_3col' );
 		"num" => ''
 		), $atts));
 		$html = '<div class="'. $id .'" style="margin-top:30px;">';
-		$html .= '<a href="'.$link.'" class="location-link"><img src="'.$img.'" class="img-responsive loc-img"/></a>';
+		$html .= '<a href="'.$link.'" class="location-link"><img src="'.$img.'" class="img-responsive loc-img" style="min-height:270px;"/></a>';
 		$html .= '<div class="loc-name"><h3 style="float:left;margin:0;"><a href="'.$link.'" class="location-link">'.$name.'</a></h3><span style="float:right;">'.$num.' Hotels</span></div>';
 		$html .= '</div>';
 	return $html;
