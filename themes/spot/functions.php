@@ -249,3 +249,23 @@ function xsbf_spot_replace_oh_with_dot ( $text ) {
 	$text = str_ireplace( 'O', '<i class="fa fa-circle color-red"></i>', $text ); 
 	return $text;
 }
+
+
+// See the __() WordPress function for valid values for $text_domain.
+register_sidebar( array(
+    'id'          => 'hotels',
+    'name'        => __( 'Bottom Hotels', $text_domain ),
+    'description' => __( 'This sidebar is located below Hotels page.', $text_domain ),
+) );
+register_sidebar( array(
+    'id'          => 'vacations',
+    'name'        => __( 'Bottom Vacations', $text_domain ),
+    'description' => __( 'This sidebar is located below Vacations page.', $text_domain ),
+) );
+register_sidebar( array(
+    'id'          => 'cars',
+    'name'        => __( 'Bottom Cars', $text_domain ),
+    'description' => __( 'This sidebar is located below cars page.', $text_domain ),
+) );
+
+add_filter('widget_text', 'do_shortcode');
