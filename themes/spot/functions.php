@@ -53,6 +53,7 @@
  *
  * NOTE: THIS VARIABLE HAS BEEN RENAMED FROM $THEME_OPTIONS. PLEASE UPDATE YOUR CHILD THEMES.
  */
+  include_once 'shortcodes.php';
 $xsbf_theme_options = array(
 	//'background_color' 		=> 'f2f2f2',
 	//'content_width' 			=> 1170,

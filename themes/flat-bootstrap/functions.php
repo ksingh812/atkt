@@ -51,6 +51,7 @@
  * testimonials - Whether to activate testimonials custom post type if Jetpack plugin is 
  * 		active
  */
+
 $defaults = array(
 	'background_color' 			=> 'f2f2f2',
 	'content_width' 			=> 1170, // used for full-width images
