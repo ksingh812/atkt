@@ -1,0 +1,7 @@
+[21-Sep-2015 22:22:47 America/Detroit] PHP Fatal error:  Call to undefined function get_header() in /home/arleenk/public_html/airtkt.net/wp-content/themes/flat-bootstrap/index.php on line 16
+[22-Sep-2015 15:14:23 America/Detroit] PHP Fatal error:  Call to undefined function post_password_required() in /home/arleenk/public_html/airtkt.net/wp-content/themes/flat-bootstrap/comments.php on line 19
+[23-Feb-2016 12:46:50 America/Detroit] PHP Fatal error:  Call to undefined function get_header() in /home/arleenk/public_html/airtkt.net/wp-content/themes/flat-bootstrap/index.php on line 16
+[01-Mar-2016 13:34:03 America/Detroit] PHP Fatal error:  Call to undefined function language_attributes() in /home/arleenk/public_html/airtkt.net/wp-content/themes/flat-bootstrap/header.php on line 12
+[01-Mar-2016 13:34:04 America/Detroit] PHP Fatal error:  Call to undefined function add_action() in /home/arleenk/public_html/airtkt.net/wp-content/themes/flat-bootstrap/functions.php on line 146
+[01-Mar-2016 13:34:04 America/Detroit] PHP Fatal error:  Call to undefined function get_sidebar() in /home/arleenk/public_html/airtkt.net/wp-content/themes/flat-bootstrap/footer.php on line 15
+[01-Mar-2016 13:34:08 America/Detroit] PHP Fatal error:  Call to undefined function get_header() in /home/arleenk/public_html/airtkt.net/wp-content/themes/flat-bootstrap/404.php on line 10
